@@ -17,7 +17,7 @@ function encriptar() {
 	document.querySelector(".mensaje_desencriptado").value = textoCifrado;
 }
 
-const boton1 = document.querySelector(".btn_enctiptar");
+const boton1 = document.querySelector(".btn_encriptar");
 boton1.onclick = encriptar;
 
 //
